@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        th,td{
+            border: 1px solid green;
+        }
+    </style>
+</head>
+<body>
+    <button type="button" class="text-red-500 bg-green-500 border-2 border-black mb-3">tailwind css</button>
+    
+    <!-- grid -->
+    <div class="grid grid-cols-4  gap-3 mb-6">
+        <div class="bg-red-100 text-center">1</div>
+        <div class="bg-red-100">2</div>
+        <div class="bg-red-100">3</div>
+        <div class="bg-red-100">4</div> 
+        <div class="bg-red-100">5</div>
+        <div class="bg-red-100">6</div>
+        <div class="bg-red-100">7</div>
+    </div>
+    <div class="flex flew-row gap-3">
+        <div class="w-1/4 bg-green-200">lost cause</div>
+        <div class="w-1/4 bg-green-300">lost cause</div>
+        <div class="w-1/4 bg-green-500">lost cause</div>
+    </div>
+    <!-- grid ending -->
+
+    <h2 class="text-center font-bold text-2xl">Tables in tailwind</h2>
+    <table class="border-collapse border border-red-600"> 
+        <thead>
+            <tr class="space-betwe">
+                <th>name</th>
+                <th>last name</th>
+                <th>gender</th>
+                <th>matric number</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>femi</td>
+                <td>ogunde</td>
+                <td>male</td>
+                <td>00343</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>john</td>
+                <td>ogunde</td>
+                <td>male</td>
+                <td>00022</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>deji</td>
+                <td>ogunlesi</td>
+                <td>male</td>
+                <td>89287</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>jennifer</td>
+                <td>matthew</td>
+                <td>female</td>
+                <td>92782</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,24 @@
+.form{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    border: 2px solid black ;
+    background-color: lightblue;
+    padding: 20px;
+    margin-left: 25%;
+    text-align: left;
+    max-width: 50%;
+    cursor: pointer;
+    /* max-height: 1000px; */
+}
+.button{
+    background-color:red;
+    color: white;
+    text-align: center;
+    margin-left: 30%;
+    height: 50px;
+    width: 40%;
+}
+a .button{
+    background-color: aqua;
+    color: black;
+}
